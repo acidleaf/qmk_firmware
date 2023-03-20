@@ -1,0 +1,14 @@
+#pragma once
+
+#define WS2812_DRIVER pwm
+#define WS2812_PWM_DRIVER PWMD2
+#define WS2812_PWM_CHANNEL 1
+#define WS2812_PWM_PAL_MODE 2
+#define WS2812_DMA_STREAM STM32_DMA1_STREAM2
+#define WS2812_DMA_CHANNEL 2
+
+// `Serial` driver configuration
+//#define SERIAL_USART_DRIVER SD1
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN B6
+#define SERIAL_USART_RX_PIN B7
