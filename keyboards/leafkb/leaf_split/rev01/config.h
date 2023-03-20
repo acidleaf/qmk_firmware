@@ -1,5 +1,8 @@
 #pragma once
 
+#define RGB_DI_PIN A8
+#define RGB_MATRIX_LED_COUNT 54
+
 #define WS2812_DRIVER pwm
 #define WS2812_PWM_DRIVER PWMD2
 #define WS2812_PWM_CHANNEL 1
@@ -10,5 +13,7 @@
 // `Serial` driver configuration
 //#define SERIAL_USART_DRIVER SD1
 #define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PAL_MODE 7
+#define SERIAL_USART_RX_PAL_MODE 7
 #define SERIAL_USART_TX_PIN B6
 #define SERIAL_USART_RX_PIN B7

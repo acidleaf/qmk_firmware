@@ -3,7 +3,7 @@
 
 
 #define RGB_DI_PIN A8
-#define DRIVER_LED_TOTAL 68
+#define RGB_MATRIX_LED_COUNT 68
 
 #define WS2812_DRIVER pwm
 #define WS2812_PWM_DRIVER PWMD2
