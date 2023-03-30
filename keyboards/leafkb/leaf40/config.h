@@ -1,7 +1,7 @@
 #pragma once
 
 #define RGB_DI_PIN B13
-#define DRIVER_LED_TOTAL 47
+#define RGB_MATRIX_LED_COUNT 47
 
 
 #define WS2812_DRIVER pwm
