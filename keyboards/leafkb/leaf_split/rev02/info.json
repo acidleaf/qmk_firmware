@@ -4,13 +4,14 @@
     "maintainer": "acidleaf",
     "processor": "RP2040",
     "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
     "features": {
         "bootmagic": true,
         "command": false,
         "console": false,
         "mousekey": false,
         "extrakey": true,
-        "rgb_matrix": false,
+        "rgb_matrix": true,
         "nkro": true
     },
     "url": "",
@@ -29,6 +30,11 @@
     },
     "split": {
         "enabled": true,
+        "transport": {
+            "protocol": "serial",
+            "sync_matrix_state": true,
+            "sync_modifiers": true
+        },
         "matrix_pins": {
             "right": {
                 "direct": [
@@ -90,6 +96,7 @@
     },
     "rgb_matrix": {
         "driver": "WS2812",
+        "split_count": [ 27, 27 ],
         "layout": [
             { "flags": 4, "matrix": [0, 0], "x": 0,  "y": 0 },
             { "flags": 4, "matrix": [0, 1], "x": 0,  "y": 0 },

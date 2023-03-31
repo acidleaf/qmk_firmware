@@ -1,0 +1,34 @@
+{
+    "manufacturer": "leafkb",
+    "keyboard_name": "leafkb onekey",
+    "maintainer": "acidleaf",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "mousekey": false,
+        "extrakey": true,
+        "nkro": true
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0002",
+        "vid": "0x4C46"
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "rows": [ "GP22" ],
+        "cols": [ "GP15" ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 }
+            ]
+        }
+    }
+}

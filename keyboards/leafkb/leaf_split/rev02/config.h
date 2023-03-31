@@ -3,13 +3,10 @@
 
 // Split keyboard configurations
 #define SPLIT_USB_DETECT
-#define SPLIT_TRANSPORT_MIRROR
-#define SPLIT_LAYER_STATE_ENABLE
-#define SPLIT_LED_STATE_ENABLE
-#define SPLIT_MODS_ENABLE
 
 
 // `Serial` driver configuration
+#define SERIAL_PIO_USE_PIO1
 #define SERIAL_USART_TX_PIN GP28
 #define SERIAL_USART_RX_PIN GP27
 #define SERIAL_USART_FULL_DUPLEX
@@ -22,7 +19,6 @@
 
 #define RGB_DI_PIN GP21
 #define RGB_MATRIX_LED_COUNT 54
-#define RGB_MATRIX_SPLIT { 27, 27 }
 
 //#define WS2812_DRIVER pwm
 //#define WS2812_PWM_DRIVER PWMD2
