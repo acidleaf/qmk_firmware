@@ -20,13 +20,6 @@
 #define RGB_DI_PIN GP21
 #define RGB_MATRIX_LED_COUNT 54
 
-//#define WS2812_DRIVER pwm
-//#define WS2812_PWM_DRIVER PWMD2
-//#define WS2812_PWM_CHANNEL 1
-//#define WS2812_PWM_PAL_MODE 2
-//#define WS2812_DMA_STREAM STM32_DMA1_STREAM2
-//#define WS2812_DMA_CHANNEL 2
-
 /*
 // RGB matrix configs
 #ifdef RGB_MATRIX_ENABLE

@@ -97,6 +97,8 @@
     "rgb_matrix": {
         "driver": "WS2812",
         "split_count": [ 27, 27 ],
+        "startup_hue": 80,
+        "maximum_brightness": 100,
         "layout": [
             { "flags": 4, "matrix": [0, 0], "x": 0,  "y": 5 },
             { "flags": 4, "matrix": [0, 1], "x": 19,  "y": 5 },
@@ -153,6 +155,34 @@
             { "flags": 4, "matrix": [7, 0], "x": 121,  "y": 69 },
             { "flags": 4, "matrix": [7, 1], "x": 140,  "y": 75 },
             { "flags": 4, "matrix": [7, 2], "x": 159,  "y": 80 }
-        ]
+        ],
+        "animations": {
+            "breathing": true,
+            "gradient_up_down": true,
+            "gradient_left_right": true,
+            "cycle_all": true,
+            "cycle_left_right": true,
+            "cycle_up_down": true,
+            "rainbow_moving_chevron": true,
+            "cycle_out_in": true,
+            "cycle_out_in_dual": true,
+            "cycle_pinwheel": true,
+            "cycle_spiral": true,
+            "dual_beacon": true,
+            "rainbow_beacon": true,
+            "rainbow_pinwheels": true,
+            "solid_reactive_simple": true,
+            "solid_reactive": true,
+            "solid_reactive_wide": true,
+            "solid_reactive_multiwide": true,
+            "solid_reactive_cross": true,
+            "solid_reactive_multicross": true,
+            "solid_reactive_nexus": true,
+            "solid_reactive_multinexus": true,
+            "splash": true,
+            "multisplash": true,
+            "solid_splash": true,
+            "solid_multisplash": true
+        }
     }
 }
