@@ -28,6 +28,9 @@
             [ "GP12", "GP13", "GP14", null, null, null ]
         ]
     },
+    "dynamic_keymap": {
+        "layer_count": 5
+    },
     "split": {
         "enabled": true,
         "transport": {
@@ -158,10 +161,10 @@
             "breathing": true,
             "gradient_up_down": true,
             "gradient_left_right": true,
+            "rainbow_moving_chevron": true,
             "cycle_all": true,
             "cycle_left_right": true,
             "cycle_up_down": true,
-            "rainbow_moving_chevron": true,
             "cycle_out_in": true,
             "cycle_out_in_dual": true,
             "cycle_pinwheel": true,
@@ -169,14 +172,6 @@
             "dual_beacon": true,
             "rainbow_beacon": true,
             "rainbow_pinwheels": true,
-            "solid_reactive_simple": true,
-            "solid_reactive": true,
-            "solid_reactive_wide": true,
-            "solid_reactive_multiwide": true,
-            "solid_reactive_cross": true,
-            "solid_reactive_multicross": true,
-            "solid_reactive_nexus": true,
-            "solid_reactive_multinexus": true,
             "splash": true,
             "multisplash": true,
             "solid_splash": true,
