@@ -1,3 +1,4 @@
 # This file intentionally left blank
 
-#SERIAL_DRIVER = usart
+SERIAL_DRIVER = vendor
+WS2812_DRIVER = vendor
